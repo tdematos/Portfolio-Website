@@ -2,15 +2,48 @@
 
 $banner-color: #111;
 $list-hover-color: rgb(155, 155, 155);
+$font-color: white;
+$menu-font-color: lightgray;
 
 .navigation-bar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 5rem;
   background-color: $banner-color;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-effect {
+  font-size: 1.75rem;
+  font-weight: 800;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
+}
+
+.page-title {
+  color: $font-color;
+  font-family: $primary-font-family;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-left: 1rem;
 }
 
 .nav-list {
@@ -23,14 +56,26 @@ $list-hover-color: rgb(155, 155, 155);
   font-family: $primary-font-family;
   list-style-type: none;
   margin: 1rem;
-  color: white;
   font-size: 1rem;
   font-weight: 300;
+  box-shadow: inset 0 0 0 0 #23a6d5;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .nav-list > *:hover {
-  color: $list-hover-color;
+  box-shadow: inset 100px 0 0 0 #e73c7e;
+  color: $font-color;
   cursor: pointer;
+}
+
+a {
+  color: $menu-font-color;
+  text-decoration: none;
+}
+
+.social-links {
+  width: 15rem;
+  margin-right: 1.75rem;
 }
 
 .icon-list {
@@ -43,4 +88,17 @@ $list-hover-color: rgb(155, 155, 155);
 
 .icon-list > * {
   margin: 1rem;
+}
+
+// navigation animation
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
