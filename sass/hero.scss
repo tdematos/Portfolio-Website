@@ -1,0 +1,15 @@
+@import "./font.scss";
+
+.hero-section {
+  margin: 0;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-title {
+  font-family: $primary-font-family;
+  color: white;
+  margin: 0;
+}

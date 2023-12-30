@@ -1,18 +1,25 @@
 @import "./font.scss";
+@import "./color.scss";
 
-$banner-color: #111;
-$list-hover-color: rgb(155, 155, 155);
-$font-color: white;
-$menu-font-color: lightgray;
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .navigation-bar {
+  position: fixed;
+  top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 5rem;
   background-color: $banner-color;
+  border-radius: 1rem;
+  border: 1px $banner-highlight-color solid;
 }
 
 .link-container {
@@ -102,3 +109,9 @@ a {
     background-position: 0% 50%;
   }
 }
+
+//make text hover color white
+//add hover effect to icons
+//add bounce animation to logo
+//add fade animation to menu
+//replace twitter icon with x
