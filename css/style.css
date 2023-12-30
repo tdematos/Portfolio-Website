@@ -103,16 +103,29 @@ a {
 }
 .hero-section {
   margin: 0;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .hero-title {
+  position: relative;
+  left: 4rem;
+  width: 50%;
   font-family: "Poppins", sans-serif;
   color: white;
+  font-size: 3.5rem;
+  line-height: 3.65rem;
   margin: 0;
+}
+
+.hero-effect {
+  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
 }
 
 body {
