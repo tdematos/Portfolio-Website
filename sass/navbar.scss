@@ -9,6 +9,7 @@
 }
 
 .navigation-bar {
+  z-index: 1;
   position: fixed;
   top: 2rem;
   display: flex;
@@ -80,6 +81,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: $font-color;
+}
+
 .social-links {
   width: 15rem;
   margin-right: 1.75rem;
@@ -110,7 +115,6 @@ a {
   }
 }
 
-//make text hover color white
 //add hover effect to icons
 //add bounce animation to logo
 //add fade animation to menu

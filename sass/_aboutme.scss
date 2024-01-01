@@ -1,0 +1,33 @@
+.about-me {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme-header {
+  font-family: $primary-font-family;
+  color: $font-color;
+  position: relative;
+  left: 4rem;
+  margin-top: 0px;
+  margin-bottom: 5rem;
+  font-weight: 300;
+}
+
+.aboutme-header:before {
+  content: "";
+  position: absolute;
+  width: 6%;
+  height: 1px;
+  bottom: 0;
+  border-bottom: 1px solid white;
+}
+
+.aboutme-description {
+  width: 60%;
+  font-family: $primary-font-family;
+  color: $menu-font-color;
+  font-size: 0.8rem;
+  position: relative;
+  left: 4rem;
+}
