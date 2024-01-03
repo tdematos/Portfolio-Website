@@ -1,0 +1,25 @@
+@import "./color.scss";
+@import "./font.scss";
+
+.tech-stack {
+  height: 30vh;
+  background-color: $projects-background-color;
+}
+
+.stack-row-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.stack-row-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-card {
+  background-color: $review-card-color;
+  height: 8rem;
+  width: 16rem;
+  border-radius: 1rem;
+  margin: 10px;
+}
