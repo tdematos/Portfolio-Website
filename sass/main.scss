@@ -1,7 +1,11 @@
 @import "./navbar.scss";
+@import "./color.scss";
+@import "./font.scss";
 @import "./hero.scss";
 @import "./_aboutme.scss";
 
 body {
+  font-family: $primary-font-family;
   background-color: $background-color;
+  color: $font-color;
 }

@@ -1,12 +1,13 @@
+@import "./color.scss";
+
 .about-me {
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
 }
 
 .aboutme-header {
-  font-family: $primary-font-family;
-  color: $font-color;
+  color: $menu-font-color;
   position: relative;
   left: 4rem;
   margin-top: 0px;
@@ -20,14 +21,44 @@
   width: 6%;
   height: 1px;
   bottom: 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid $menu-font-color;
 }
 
 .aboutme-description {
   width: 60%;
-  font-family: $primary-font-family;
   color: $menu-font-color;
   font-size: 0.8rem;
   position: relative;
   left: 4rem;
+  margin-bottom: 6rem;
+}
+
+.stack-header-container {
+  position: relative;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack-header {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #df8e75,
+    #d0628c,
+    #53afd0,
+    #53d0b3
+  );
+  background-size: 50% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+
+.stack-description {
+  color: $menu-font-color;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
 }

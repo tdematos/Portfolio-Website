@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -41,7 +42,6 @@
 
 .page-title {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   margin-left: 1rem;
@@ -54,7 +54,6 @@
 }
 
 .nav-list > * {
-  font-family: "Poppins", sans-serif;
   list-style-type: none;
   margin: 1rem;
   font-size: 1rem;
@@ -118,7 +117,6 @@ a:hover {
   position: relative;
   left: 4rem;
   width: 50%;
-  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 3.5rem;
   line-height: 3.65rem;
@@ -134,14 +132,13 @@ a:hover {
 }
 
 .about-me {
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
 }
 
 .aboutme-header {
-  font-family: "Poppins", sans-serif;
-  color: white;
+  color: lightgray;
   position: relative;
   left: 4rem;
   margin-top: 0px;
@@ -155,20 +152,46 @@ a:hover {
   width: 6%;
   height: 1px;
   bottom: 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid lightgray;
 }
 
 .aboutme-description {
   width: 60%;
-  font-family: "Poppins", sans-serif;
   color: lightgray;
   font-size: 0.8rem;
   position: relative;
   left: 4rem;
+  margin-bottom: 6rem;
+}
+
+.stack-header-container {
+  position: relative;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack-header {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(-45deg, #df8e75, #d0628c, #53afd0, #53d0b3);
+  background-size: 50% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+
+.stack-description {
+  color: lightgray;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background-color: black;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
