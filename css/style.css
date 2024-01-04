@@ -212,6 +212,67 @@ a:hover {
   margin: 10px;
 }
 
+.project-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 33rem;
+  width: 53rem;
+  border-radius: 4rem;
+  background: linear-gradient(180deg, rgba(35, 37, 49, 0.5), rgba(15, 15, 24, 0.5));
+  border: 0.1rem solid #20222e;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  position: relative;
+  right: 4rem;
+  bottom: 2rem;
+}
+
+.project-img {
+  width: 22rem;
+  height: 26rem;
+  border-radius: 3rem;
+  position: relative;
+  right: 8rem;
+}
+
+.project-stack {
+  color: lightgray;
+  font-size: 0.75rem;
+  font-weight: 300;
+  transform: rotate(270deg);
+  margin: 0%;
+  position: relative;
+  right: 6rem;
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.website-link {
+  color: #6b9796;
+}
+
+.project-section {
+  display: flex;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
