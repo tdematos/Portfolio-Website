@@ -1,12 +1,51 @@
 .project-section {
-  height: 80vh;
+  height: 140vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
+.project-title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 2rem;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+.project-heading {
+  position: relative;
+  left: 4rem;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #df8e75,
+    #d0628c,
+    #53afd0,
+    #53d0b3
+  );
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  padding-left: 0px;
+  margin-bottom: 1px;
+}
+
+.project-description {
+  position: relative;
+  left: 4rem;
+  color: $menu-font-color;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
 .project-card {
+  margin-bottom: 6rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
