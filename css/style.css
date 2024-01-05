@@ -265,6 +265,19 @@ a:hover {
   border: 0.1rem solid #20222e;
 }
 
+.project-number {
+  position: absolute;
+  bottom: 11.5rem;
+  left: 14rem;
+  font-size: 7rem;
+  font-weight: 700;
+  z-index: -1;
+  background: -webkit-linear-gradient(-90deg, #ffffff, #b8b8b8, #171717, #000000);
+  background-size: 10% 90%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .project-info {
   display: flex;
   flex-direction: column;
