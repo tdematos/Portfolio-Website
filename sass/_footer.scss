@@ -3,7 +3,7 @@
 footer {
   border-top: 1px solid #20222e;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,4 +44,12 @@ footer {
 
 .designed-by {
   font-size: 0.65rem;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
 }

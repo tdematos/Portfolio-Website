@@ -213,7 +213,7 @@ a:hover {
 }
 
 .project-section {
-  height: 280vh;
+  height: 260vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -322,7 +322,7 @@ a:hover {
 footer {
   border-top: 1px solid #20222e;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -359,11 +359,29 @@ footer {
   font-size: 0.65rem;
 }
 
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.contact-me {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,10 +6,13 @@
 @import "./_tech-stack";
 @import "./projects";
 @import "./footer";
+@import "./contact.scss";
 
 body {
   font-family: $primary-font-family;
   background-color: $background-color;
   color: $font-color;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
 }
