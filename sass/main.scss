@@ -5,9 +5,11 @@
 @import "./_aboutme.scss";
 @import "./_tech-stack";
 @import "./projects";
+@import "./footer";
 
 body {
   font-family: $primary-font-family;
   background-color: $background-color;
   color: $font-color;
+  margin: 0;
 }

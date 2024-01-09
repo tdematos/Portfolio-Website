@@ -1,0 +1,47 @@
+@import "./color.scss";
+
+footer {
+  border-top: 1px solid #20222e;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-container {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  color: $menu-font-color;
+  width: 15rem;
+}
+
+.pre-logo-bottom {
+  font-size: 1.5rem;
+  color: $font-color;
+  font-weight: 800;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
+}
+
+.logo-footer {
+  font-size: 0.75rem;
+  color: $font-color;
+  font-weight: 700;
+}
+
+.designed-by {
+  font-size: 0.65rem;
+}
