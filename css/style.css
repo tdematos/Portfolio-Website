@@ -375,6 +375,52 @@ footer {
   align-items: center;
 }
 
+.contact-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-title {
+  position: relative;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(-45deg, #df8e75, #d0628c, #53afd0, #53d0b3);
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  padding-left: 0px;
+  margin-bottom: 1px;
+}
+
+.contact-emoji {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.contact-subheading {
+  position: relative;
+  color: lightgray;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.resume-download-btn {
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  border: 1px solid #53d0b3;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
