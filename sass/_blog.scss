@@ -1,3 +1,5 @@
+@import "./color.scss";
+
 .blog-section {
   display: flex;
   flex-direction: row;
@@ -6,18 +8,30 @@
 }
 
 .blog-card {
-  height: 30rem;
-  width: 25rem;
-  background-color: lightgray;
+  height: 470px;
+  width: 405px;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 37, 49, 0.5),
+    rgba(15, 15, 24, 0.5)
+  );
   border-radius: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 0.1rem solid #20222e;
 }
 
 .blog-img-container {
   height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-heading {
+  margin: 0px;
+  margin-top: 15px;
 }
 
 .blog-img {
@@ -30,9 +44,30 @@
 .overlay {
   position: absolute;
   border-radius: 3rem;
-  width: 30.4%;
-  height: 27%;
+  width: 405px;
+  height: 300px;
   background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8));
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.blog-description {
+  width: 330px;
+  font-weight: 200;
+  color: $menu-font-color;
+  font-size: 14px;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  color: $menu-font-color;
+  font-size: 14px;
+}
+
+.blog-headshot {
+  width: 40px;
+  border-radius: 25px;
+  margin: 10px;
 }
