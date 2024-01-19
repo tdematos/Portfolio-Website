@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 80%;
   height: 5rem;
   background-color: rgba(37, 38, 46, 0.941);
   border-radius: 1rem;
@@ -95,6 +95,10 @@ a:hover {
   margin: 1rem;
 }
 
+.social-icon:hover {
+  animation: bounce 0.85s ease infinite;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -104,6 +108,29 @@ a:hover {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 .hero-section {
