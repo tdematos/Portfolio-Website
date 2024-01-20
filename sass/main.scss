@@ -1,13 +1,17 @@
 @import "./_navbar.scss";
 @import "./color.scss";
 @import "./font.scss";
-@import "./hero.scss";
+@import "./_hero.scss";
 @import "./_aboutme.scss";
 @import "./_tech-stack";
 @import "./projects";
 @import "./footer";
 @import "./contact.scss";
 @import "./blog";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: $primary-font-family;
@@ -16,4 +20,8 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
