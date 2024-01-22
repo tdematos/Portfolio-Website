@@ -2,7 +2,7 @@
 @import "./font.scss";
 
 .tech-stack {
-  height: 30vh;
+  height: 32vh;
   background-color: $projects-background-color;
 }
 
@@ -17,8 +17,12 @@
 }
 
 .section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: $review-card-color;
-  height: 8rem;
+  height: 12rem;
   width: 16rem;
   border-radius: 1rem;
   margin: 10px;

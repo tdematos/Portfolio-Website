@@ -2,9 +2,45 @@
 
 .blog-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.blog-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.blog-header h2 {
+  position: relative;
+  left: 6rem;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #df8e75,
+    #d0628c,
+    #53afd0,
+    #53d0b3
+  );
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  padding-left: 0px;
+  margin-bottom: 1px;
+}
+
+.blog-header p {
+  position: relative;
+  left: 6rem;
+  color: $menu-font-color;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 8rem;
 }
 
 .blog-card {
