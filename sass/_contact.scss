@@ -57,3 +57,9 @@
   color: white;
   border: 1px solid #53d0b3;
 }
+
+@media (max-width: 1600px) {
+  .contact-me {
+    height: 60vh;
+  }
+}

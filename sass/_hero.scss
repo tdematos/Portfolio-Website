@@ -108,5 +108,28 @@ label:active:after {
   width: 130px;
 }
 
+@media (max-width: 1600px) {
+  .hero-section {
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+  }
+
+  .hero-title {
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+    width: 50vw;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 3.65rem;
+    margin: 0;
+  }
+  /* … */
+}
+
 //add more detail to background
 //add some item with animation to

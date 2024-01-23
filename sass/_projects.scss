@@ -121,4 +121,25 @@
   display: flex;
 }
 
+@media (max-width: 1600px) {
+  .project-section {
+    height: 380vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .project-heading {
+    position: relative;
+    left: 7rem;
+  }
+
+  .project-description {
+    position: relative;
+    left: 7rem;
+  }
+}
+
 //add an arrow at the end to see more projects in

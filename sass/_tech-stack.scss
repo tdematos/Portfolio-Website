@@ -4,16 +4,20 @@
 .tech-stack {
   height: 32vh;
   background-color: $projects-background-color;
+  overflow: hidden;
 }
 
 .stack-row-one {
   display: flex;
   flex-direction: row;
+  // transition: transform 7s ease-in-out;
+  animation: slideAnimation 10s linear infinite;
 }
 
 .stack-row-two {
   display: flex;
   flex-direction: row;
+  animation: slideAnimation2 10s linear infinite;
 }
 
 .section-card {
@@ -26,4 +30,45 @@
   width: 16rem;
   border-radius: 1rem;
   margin: 10px;
+}
+
+@keyframes slideAnimation {
+  0%,
+  100% {
+    transform: translateX(20);
+  }
+  25% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  75% {
+    transform: translateX(-20);
+  }
+}
+
+@keyframes slideAnimation2 {
+  0%,
+  100% {
+    transform: translateX(-20);
+  }
+  25% {
+    transform: translateX(20%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  75% {
+    transform: translateX(20);
+  }
+}
+
+@media (max-width: 1600px) {
+  .tech-stack {
+    width: 100vw;
+    height: 65vh;
+    background-color: $projects-background-color;
+    overflow: hidden;
+  }
 }

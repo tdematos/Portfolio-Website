@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .blog-header {
   width: 100%;
   display: flex;
@@ -106,4 +107,16 @@
   width: 40px;
   border-radius: 25px;
   margin: 10px;
+}
+
+@media (max-width: 1600px) {
+  .blog-header h2 {
+    position: relative;
+    left: 7rem;
+  }
+
+  .blog-header p {
+    position: relative;
+    left: 7rem;
+  }
 }
