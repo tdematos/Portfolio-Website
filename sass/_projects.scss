@@ -86,8 +86,9 @@
   justify-content: space-between;
   height: 60%;
   position: relative;
-  right: 4rem;
+  right: 1rem;
   bottom: 2rem;
+  width: 20%;
 }
 
 .project-img {
@@ -114,11 +115,15 @@
 }
 
 .website-link {
-  color: #6b9796;
+  color: #d0628c;
 }
 
 .project-section {
   display: flex;
+}
+
+.cv-generator > img {
+  right: 4rem;
 }
 
 @media (max-width: 1600px) {

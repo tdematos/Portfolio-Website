@@ -58,6 +58,10 @@
   border: 1px solid #53d0b3;
 }
 
+.resume-download-btn:hover {
+  box-shadow: 0px 0px 25px 10px white;
+}
+
 @media (max-width: 1600px) {
   .contact-me {
     height: 60vh;
