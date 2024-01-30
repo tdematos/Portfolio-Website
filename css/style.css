@@ -473,7 +473,7 @@ label:active:after {
   justify-content: space-between;
   height: 60%;
   position: relative;
-  right: 1rem;
+  right: 4rem;
   bottom: 2rem;
   width: 20%;
 }
@@ -511,6 +511,10 @@ label:active:after {
 
 .cv-generator > img {
   right: 4rem;
+}
+
+.cv-generator > .project-info {
+  right: 1rem;
 }
 
 @media (max-width: 1600px) {
