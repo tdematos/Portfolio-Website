@@ -2,7 +2,11 @@
 @import "./font.scss";
 
 .tech-stack {
-  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
   background-color: $projects-background-color;
   overflow: hidden;
 }

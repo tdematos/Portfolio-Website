@@ -332,7 +332,11 @@ label:active:after {
   }
 }
 .tech-stack {
-  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38vh;
   background-color: rgb(5, 8, 16);
   overflow: hidden;
 }
