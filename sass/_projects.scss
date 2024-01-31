@@ -118,16 +118,32 @@
   color: #d0628c;
 }
 
+.website-link:before {
+  content: "";
+  position: absolute;
+  width: 75px;
+  bottom: 5.3rem;
+  border-bottom: 1px solid $menu-font-color;
+}
+
 .project-section {
   display: flex;
 }
 
-.cv-generator > img {
-  right: 4rem;
+.cv-generator > .project-stack {
+  padding-right: 120px;
 }
 
-.cv-generator > .project-info {
-  right: 1rem;
+.web-calc {
+  color: rgb(255, 255, 139);
+}
+
+.web-ld {
+  color: gray;
+}
+
+.web-resgen {
+  color: rgb(86, 135, 86);
 }
 
 @media (max-width: 1600px) {
@@ -148,6 +164,10 @@
   .project-description {
     position: relative;
     left: 7rem;
+  }
+
+  .website-link:before {
+    bottom: 5.5rem;
   }
 }
 
