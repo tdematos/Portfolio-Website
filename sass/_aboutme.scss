@@ -88,3 +88,23 @@
     margin-bottom: 6rem;
   }
 }
+
+@media (max-width: 1080px) {
+  .aboutme-header {
+    left: 12rem;
+  }
+
+  .aboutme-description {
+    width: 50%;
+    position: relative;
+    left: 12rem;
+  }
+
+  .stack-header-container {
+    left: 12rem;
+  }
+
+  .stack-description {
+    margin-top: 0px;
+  }
+}
