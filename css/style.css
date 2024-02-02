@@ -280,7 +280,7 @@ label:active:after {
 @media (max-width: 1080px) {
   .hero-section {
     margin: 0;
-    height: 85vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,8 +291,8 @@ label:active:after {
     position: relative;
     left: 15rem;
     top: 2.5rem;
-    width: 70vw;
-    font-size: 3.8rem;
+    width: 90vw;
+    font-size: 3.5rem;
   }
   .arrow-container {
     position: relative;
@@ -388,15 +388,18 @@ label:active:after {
 }
 @media (max-width: 1080px) {
   .aboutme-header {
-    left: 12rem;
+    left: 14rem;
   }
   .aboutme-description {
-    width: 50%;
+    width: 45%;
     position: relative;
-    left: 12rem;
+    left: 14rem;
   }
   .stack-header-container {
-    left: 12rem;
+    left: 14rem;
+  }
+  .stack-header {
+    font-size: 2.4rem;
   }
   .stack-description {
     margin-top: 0px;
@@ -470,6 +473,13 @@ label:active:after {
     height: 65vh;
     background-color: rgb(5, 8, 16);
     overflow: hidden;
+  }
+}
+@media (max-width: 1080px) {
+  .tech-stack {
+    height: 75vh;
+    position: relative;
+    left: 14rem;
   }
 }
 .project-section {

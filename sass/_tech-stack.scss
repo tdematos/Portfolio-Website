@@ -76,3 +76,11 @@
     overflow: hidden;
   }
 }
+
+@media (max-width: 1080px) {
+  .tech-stack {
+    height: 75vh;
+    position: relative;
+    left: 14rem;
+  }
+}

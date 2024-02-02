@@ -123,7 +123,7 @@ label:active:after {
 @media (max-width: 1080px) {
   .hero-section {
     margin: 0;
-    height: 85vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,8 +135,8 @@ label:active:after {
     position: relative;
     left: 15rem;
     top: 2.5rem;
-    width: 70vw;
-    font-size: 3.8rem;
+    width: 90vw;
+    font-size: 3.5rem;
   }
 
   .arrow-container {

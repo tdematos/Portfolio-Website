@@ -91,17 +91,21 @@
 
 @media (max-width: 1080px) {
   .aboutme-header {
-    left: 12rem;
+    left: 14rem;
   }
 
   .aboutme-description {
-    width: 50%;
+    width: 45%;
     position: relative;
-    left: 12rem;
+    left: 14rem;
   }
 
   .stack-header-container {
-    left: 12rem;
+    left: 14rem;
+  }
+
+  .stack-header {
+    font-size: 2.4rem;
   }
 
   .stack-description {
