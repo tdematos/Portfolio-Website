@@ -1,5 +1,5 @@
-@import "./font.scss";
-@import "./color.scss";
+@import "./_font.scss";
+@import "./_color.scss";
 
 .nav-container {
   display: flex;
@@ -105,7 +105,7 @@ a:hover {
 }
 
 //code for mobile layout goes here
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .navigation-bar {
     z-index: 1;
     position: relative;

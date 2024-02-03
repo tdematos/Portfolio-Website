@@ -100,7 +100,7 @@ a:hover {
   animation: bounce 0.85s ease infinite;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .navigation-bar {
     z-index: 1;
     position: relative;
@@ -277,7 +277,7 @@ label:active:after {
   }
   /* … */
 }
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .hero-section {
     margin: 0;
     height: 60vh;
@@ -475,7 +475,7 @@ label:active:after {
     overflow: hidden;
   }
 }
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .tech-stack {
     height: 75vh;
     position: relative;
@@ -633,6 +633,20 @@ label:active:after {
   }
   .website-link:before {
     bottom: 5.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .project-heading {
+    width: 50%;
+    left: 14rem;
+    font-size: 2.4rem;
+    line-height: 45px;
+  }
+  .project-description {
+    width: 50%;
+    left: 14rem;
+    line-height: 25px;
+    margin: 0px;
   }
 }
 footer {

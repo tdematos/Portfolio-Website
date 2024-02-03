@@ -1,5 +1,5 @@
-@import "./color.scss";
-@import "./font.scss";
+@import "./_color.scss";
+@import "./font";
 
 .tech-stack {
   display: flex;
@@ -77,7 +77,7 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .tech-stack {
     height: 75vh;
     position: relative;

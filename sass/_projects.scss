@@ -171,4 +171,20 @@
   }
 }
 
+@media (max-width: 480px) {
+  .project-heading {
+    width: 50%;
+    left: 14rem;
+    font-size: 2.4rem;
+    line-height: 45px;
+  }
+
+  .project-description {
+    width: 50%;
+    left: 14rem;
+    line-height: 25px;
+    margin: 0px;
+  }
+}
+
 //add an arrow at the end to see more projects in

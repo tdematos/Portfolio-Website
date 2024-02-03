@@ -1,4 +1,4 @@
-@import "./font.scss";
+@import "./_font.scss";
 
 .hero-section {
   margin: 0;
@@ -120,7 +120,7 @@ label:active:after {
   /* … */
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   .hero-section {
     margin: 0;
     height: 60vh;
