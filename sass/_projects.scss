@@ -173,17 +173,61 @@
 
 @media (max-width: 480px) {
   .project-heading {
-    width: 50%;
-    left: 14rem;
+    width: 100%;
+    left: 1rem;
     font-size: 2.4rem;
     line-height: 45px;
   }
 
   .project-description {
-    width: 50%;
-    left: 14rem;
+    width: 100%;
+    left: 1rem;
     line-height: 25px;
     margin: 0px;
+  }
+
+  .project-card {
+    position: relative;
+    left: 0.5rem;
+    margin-bottom: 6rem;
+    height: 33rem;
+    width: 25rem;
+    border-radius: 4rem;
+  }
+
+  .project-img {
+    width: 10rem;
+    height: 12rem;
+    border-radius: 3rem;
+    right: 6rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .project-stack {
+    right: 3rem;
+  }
+
+  .project-info {
+    height: 60%;
+    position: relative;
+    right: 4rem;
+    bottom: 2rem;
+    width: 20%;
+  }
+
+  .website-link:before {
+    border-bottom: none;
+  }
+
+  .project-number {
+    position: absolute;
+    bottom: 11.5rem;
+    left: 0.5rem;
   }
 }
 

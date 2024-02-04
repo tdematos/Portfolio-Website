@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -289,14 +290,14 @@ label:active:after {
   }
   .hero-title {
     position: relative;
-    left: 15rem;
+    left: 1rem;
     top: 2.5rem;
     width: 90vw;
     font-size: 3.5rem;
   }
   .arrow-container {
     position: relative;
-    left: 28rem;
+    left: 17rem;
     top: 6rem;
     display: flex;
     flex-direction: column;
@@ -333,7 +334,7 @@ label:active:after {
 .aboutme-description {
   width: 60%;
   color: lightgray;
-  font-size: 0.8rem;
+  font-size: 2rem;
   position: relative;
   left: 6rem;
   margin-bottom: 6rem;
@@ -386,17 +387,20 @@ label:active:after {
     margin-bottom: 6rem;
   }
 }
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
+  .about-me {
+    height: 65vh;
+  }
   .aboutme-header {
-    left: 14rem;
+    left: 1rem;
   }
   .aboutme-description {
-    width: 45%;
-    position: relative;
-    left: 14rem;
+    width: 100%;
+    margin-bottom: 60px;
+    left: 1rem;
   }
   .stack-header-container {
-    left: 14rem;
+    left: 1rem;
   }
   .stack-header {
     font-size: 2.4rem;
@@ -479,7 +483,7 @@ label:active:after {
   .tech-stack {
     height: 75vh;
     position: relative;
-    left: 14rem;
+    left: 0rem;
   }
 }
 .project-section {
@@ -637,16 +641,53 @@ label:active:after {
 }
 @media (max-width: 480px) {
   .project-heading {
-    width: 50%;
-    left: 14rem;
+    width: 100%;
+    left: 1rem;
     font-size: 2.4rem;
     line-height: 45px;
   }
   .project-description {
-    width: 50%;
-    left: 14rem;
+    width: 100%;
+    left: 1rem;
     line-height: 25px;
     margin: 0px;
+  }
+  .project-card {
+    position: relative;
+    left: 0.5rem;
+    margin-bottom: 6rem;
+    height: 33rem;
+    width: 25rem;
+    border-radius: 4rem;
+  }
+  .project-img {
+    width: 10rem;
+    height: 12rem;
+    border-radius: 3rem;
+    right: 6rem;
+  }
+  .project-title {
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .project-stack {
+    right: 3rem;
+  }
+  .project-info {
+    height: 60%;
+    position: relative;
+    right: 4rem;
+    bottom: 2rem;
+    width: 20%;
+  }
+  .website-link:before {
+    border-bottom: none;
+  }
+  .project-number {
+    position: absolute;
+    bottom: 11.5rem;
+    left: 0.5rem;
   }
 }
 footer {
@@ -743,21 +784,35 @@ footer {
 }
 
 .resume-download-btn {
-  width: 7rem;
-  height: 2.5rem;
-  border-radius: 0.5rem;
+  width: 8rem;
+  height: 3.5rem;
+  border-radius: 1rem;
   background-color: black;
   color: white;
   border: 1px solid #53d0b3;
+  font-size: 1rem;
 }
 
 .resume-download-btn:hover {
-  box-shadow: 0px 0px 25px 10px white;
+  box-shadow: 0px 0px 290px 1px white;
+  background: -webkit-linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  font-weight: 700;
 }
 
 @media (max-width: 1600px) {
   .contact-me {
     height: 60vh;
+  }
+}
+@media (max-width: 480px) {
+  .contact-title {
+    position: relative;
+    font-size: 2.2rem;
+  }
+  .contact-emoji {
+    left: 0.15rem;
   }
 }
 .blog-section {
@@ -867,6 +922,14 @@ footer {
   .blog-header p {
     position: relative;
     left: 7rem;
+  }
+}
+@media (max-width: 480px) {
+  .blog-header h2 {
+    left: 1rem;
+  }
+  .blog-header p {
+    left: 1rem;
   }
 }
 html {
