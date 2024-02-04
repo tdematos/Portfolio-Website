@@ -1,7 +1,7 @@
 @import "./_color.scss";
 
 .about-me {
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
 }
@@ -9,7 +9,7 @@
 .aboutme-header {
   color: $menu-font-color;
   position: relative;
-  left: 6rem;
+  left: 10rem;
   margin-top: 0px;
   margin-bottom: 5rem;
   font-weight: 300;
@@ -18,7 +18,7 @@
 .aboutme-header:before {
   content: "";
   position: absolute;
-  width: 6%;
+  width: 60px;
   height: 1px;
   bottom: 0;
   border-bottom: 1px solid $menu-font-color;
@@ -29,7 +29,7 @@
   color: $menu-font-color;
   font-size: 2rem;
   position: relative;
-  left: 6rem;
+  left: 10rem;
   margin-bottom: 6rem;
 }
 
@@ -108,15 +108,13 @@
     left: 1rem;
   }
 
-  .stack-header-container {
-    left: 1rem;
-  }
-
   .stack-header {
     font-size: 2.4rem;
+    left: -3rem;
   }
 
   .stack-description {
     margin-top: 0px;
+    left: -3rem;
   }
 }

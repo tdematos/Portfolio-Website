@@ -19,7 +19,7 @@
 
 .project-heading {
   position: relative;
-  left: 4rem;
+  left: 10rem;
   font-size: 2.5rem;
   background: -webkit-linear-gradient(
     -45deg,
@@ -38,7 +38,7 @@
 
 .project-description {
   position: relative;
-  left: 4rem;
+  left: 10rem;
   color: $menu-font-color;
   font-size: 0.8rem;
   font-weight: 300;
@@ -121,8 +121,8 @@
 .website-link:before {
   content: "";
   position: absolute;
-  width: 75px;
-  bottom: 5.3rem;
+  width: 60px;
+  bottom: 4.2rem;
   border-bottom: 1px solid $menu-font-color;
 }
 
