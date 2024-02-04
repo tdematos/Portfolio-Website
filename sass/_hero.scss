@@ -11,10 +11,10 @@
 
 .hero-title {
   position: relative;
-  left: 6rem;
+  left: 10rem;
   width: 50vw;
   color: white;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 3.65rem;
   margin: 0;
 }
@@ -43,70 +43,70 @@
   line-height: 5px;
 }
 
-.toggle-text {
-  position: relative;
-  right: 5rem;
-  font-weight: 200;
-  color: $menu-font-color;
-  font-size: 14px;
-  margin: 0px;
-  box-shadow: 0px 0px 200px 40px rgb(175, 175, 175);
-  background-color: rgba(175, 175, 175, 0.175);
-}
+// .toggle-text {
+//   position: relative;
+//   right: 5rem;
+//   font-weight: 200;
+//   color: $menu-font-color;
+//   font-size: 14px;
+//   margin: 0px;
+//   box-shadow: 0px 0px 200px 40px rgb(175, 175, 175);
+//   background-color: rgba(175, 175, 175, 0.175);
+// }
 
-.toggle-container {
-  padding-top: 0px;
-  position: relative;
-  right: 6rem;
-}
+// .toggle-container {
+//   padding-top: 0px;
+//   position: relative;
+//   right: 6rem;
+// }
 
-input[type="checkbox"] {
-  visibility: hidden;
-}
+// input[type="checkbox"] {
+//   visibility: hidden;
+// }
 
-label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 80px;
-  height: 40px;
-  background: grey;
-  display: block;
-  border-radius: 100px;
-  position: relative;
-}
+// label {
+//   cursor: pointer;
+//   text-indent: -9999px;
+//   width: 80px;
+//   height: 40px;
+//   background: grey;
+//   display: block;
+//   border-radius: 100px;
+//   position: relative;
+// }
 
-label:after {
-  content: "";
-  position: absolute;
-  top: 2.3px;
-  left: 5px;
-  width: 35px;
-  height: 35px;
-  background: #fff;
-  border-radius: 90px;
-  transition: 0.3s;
-}
+// label:after {
+//   content: "";
+//   position: absolute;
+//   top: 2.3px;
+//   left: 5px;
+//   width: 35px;
+//   height: 35px;
+//   background: #fff;
+//   border-radius: 90px;
+//   transition: 0.3s;
+// }
 
-input:checked + label {
-  background: -webkit-linear-gradient(
-    -45deg,
-    #ee7752,
-    #e73c7e,
-    #23a6d5,
-    #23d5ab
-  );
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-}
+// input:checked + label {
+//   background: -webkit-linear-gradient(
+//     -45deg,
+//     #ee7752,
+//     #e73c7e,
+//     #23a6d5,
+//     #23d5ab
+//   );
+//   background-size: 400% 400%;
+//   animation: gradient 5s ease infinite;
+// }
 
-input:checked + label:after {
-  left: calc(100% - 5px);
-  transform: translateX(-100%);
-}
+// input:checked + label:after {
+//   left: calc(100% - 5px);
+//   transform: translateX(-100%);
+// }
 
-label:active:after {
-  width: 130px;
-}
+// label:active:after {
+//   width: 130px;
+// }
 
 @media (max-width: 1600px) {
   .hero-section {
