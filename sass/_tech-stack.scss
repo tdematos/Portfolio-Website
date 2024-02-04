@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 38vh;
+  height: 480px;
   background-color: $projects-background-color;
   overflow: hidden;
 }
@@ -71,7 +71,7 @@
 @media (max-width: 1600px) {
   .tech-stack {
     width: 100vw;
-    height: 65vh;
+
     background-color: $projects-background-color;
     overflow: hidden;
   }

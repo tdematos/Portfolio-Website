@@ -173,7 +173,7 @@ a:hover {
 }
 .hero-section {
   margin: 0;
-  height: 60vh;
+  height: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -211,7 +211,6 @@ a:hover {
 @media (max-width: 1600px) {
   .hero-section {
     margin: 0;
-    height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -249,7 +248,7 @@ a:hover {
   }
 }
 .about-me {
-  height: 45vh;
+  height: 550px;
   display: flex;
   flex-direction: column;
 }
@@ -311,7 +310,6 @@ a:hover {
 
 @media (max-width: 1600px) {
   .about-me {
-    height: 60vh;
     display: flex;
     flex-direction: column;
   }
@@ -358,7 +356,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 38vh;
+  height: 480px;
   background-color: rgb(5, 8, 16);
   overflow: hidden;
 }
@@ -418,7 +416,6 @@ a:hover {
 @media (max-width: 1600px) {
   .tech-stack {
     width: 100vw;
-    height: 65vh;
     background-color: rgb(5, 8, 16);
     overflow: hidden;
   }
@@ -431,7 +428,7 @@ a:hover {
   }
 }
 .project-section {
-  height: 220vh;
+  height: 2500px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -564,7 +561,6 @@ a:hover {
 
 @media (max-width: 1600px) {
   .project-section {
-    height: 380vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -683,7 +679,7 @@ footer {
 }
 
 .contact-me {
-  height: 40vh;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -745,11 +741,6 @@ footer {
   font-weight: 700;
 }
 
-@media (max-width: 1600px) {
-  .contact-me {
-    height: 60vh;
-  }
-}
 @media (max-width: 480px) {
   .contact-title {
     position: relative;

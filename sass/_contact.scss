@@ -1,7 +1,7 @@
 @import "./font";
 
 .contact-me {
-  height: 40vh;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +77,6 @@
 
 @media (max-width: 1600px) {
   .contact-me {
-    height: 60vh;
   }
 }
 

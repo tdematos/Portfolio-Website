@@ -2,7 +2,7 @@
 
 .hero-section {
   margin: 0;
-  height: 60vh;
+  height: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -111,7 +111,6 @@
 @media (max-width: 1600px) {
   .hero-section {
     margin: 0;
-    height: 80vh;
     display: flex;
     flex-direction: row;
     align-items: center;
