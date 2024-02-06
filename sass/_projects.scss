@@ -122,7 +122,7 @@
   content: "";
   position: absolute;
   width: 60px;
-  bottom: 4.2rem;
+  bottom: 4rem;
   border-bottom: 1px solid $menu-font-color;
 }
 
@@ -163,10 +163,6 @@
   .project-description {
     position: relative;
     left: 10rem;
-  }
-
-  .website-link:before {
-    bottom: 5.5rem;
   }
 }
 

@@ -535,7 +535,7 @@ a:hover {
   content: "";
   position: absolute;
   width: 60px;
-  bottom: 4.2rem;
+  bottom: 4rem;
   border-bottom: 1px solid lightgray;
 }
 
@@ -574,9 +574,6 @@ a:hover {
   .project-description {
     position: relative;
     left: 10rem;
-  }
-  .website-link:before {
-    bottom: 5.5rem;
   }
 }
 @media (max-width: 480px) {
