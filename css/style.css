@@ -482,7 +482,7 @@ a:hover {
 
 .project-number {
   position: absolute;
-  bottom: 11.5rem;
+  bottom: 8rem;
   left: 14rem;
   font-size: 7rem;
   font-weight: 700;
@@ -580,6 +580,9 @@ a:hover {
   }
 }
 @media (max-width: 480px) {
+  .project-section {
+    height: 2900px;
+  }
   .project-heading {
     width: 100%;
     left: 1rem;
@@ -595,7 +598,7 @@ a:hover {
   .project-card {
     position: relative;
     left: 0.5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
     height: 33rem;
     width: 25rem;
     border-radius: 4rem;
