@@ -274,7 +274,7 @@ a:hover {
 .aboutme-description {
   width: 60%;
   color: lightgray;
-  font-size: 2rem;
+  font-size: 1rem;
   position: relative;
   left: 10rem;
   margin-bottom: 6rem;
@@ -324,7 +324,7 @@ a:hover {
   .aboutme-description {
     width: 60%;
     color: lightgray;
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: relative;
     left: 10rem;
     margin-bottom: 6rem;
