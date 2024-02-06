@@ -12,6 +12,7 @@ I built this portfolio website using VS Code as my development enviroment. The 4
 - SASS
 - JavaScript
 - NPM
+- Netlify
 
 Starting out, I layouted out the foundation with HTML, which is a large portion of the codebase for creating this project. I thought about using css to build this project, but knew if I used a preprocessor like SASS I could use I could use features like Partials to modularize the project, and that way I could compartmentalize the styling sections individually which could make styling easier. I also wanted to stay away from using a framework like bootstrap or tailwind, because I wanted seperation of concern, and I knew this project was going to be extremely customized. I also knew in order to compile the SASS code I needed to use the NPM which would allow me to install a library to do this.
 I also created a JavaScript file, but have not implemented any JavaScript code because it will only be used in a future release. This is because there will be a feature in which I will need JavaScript to listent to an event, and execute the code when the action happens.
