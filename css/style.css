@@ -101,8 +101,19 @@ a:hover {
   animation: bounce 0.85s ease infinite;
 }
 
+@media (max-width: 1068px) {
+  .navigation-bar {
+    flex-wrap: wrap;
+    height: 15rem;
+    justify-content: center;
+  }
+  .link-container {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 480px) {
   .navigation-bar {
+    flex-wrap: nowrap;
     z-index: 1;
     position: relative;
     top: 1rem;
@@ -121,6 +132,7 @@ a:hover {
     width: 80vw;
   }
   .link-container {
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
